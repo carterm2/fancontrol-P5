@@ -1,0 +1,12 @@
+#FanControl-P5
+[Unit]
+Description=Fan Control Script
+
+[Service]
+ExecStart=/usr/bin/python3 /home/carter/fancontrol/fancontrol.py
+Restart=always
+User=root
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
