@@ -3,10 +3,10 @@
 Description=Fan Control Script
 
 [Service]
-ExecStart=/usr/bin/python3 /home/carter/fancontrol/fancontrol.py
+ExecStart=/usr/bin/python3 /home/[USERNAME]/fancontrol/fancontrol-P5.py
 Restart=always
 User=root
 Environment=PYTHONUNBUFFERED=1
-
+e
 [Install]
 WantedBy=multi-user.target
