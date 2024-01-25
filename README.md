@@ -4,11 +4,11 @@
 
 1.  Download fancontrol-P5.py and fancontrol-P5.service (home directory or subfolder)
 
-2.  Edit fancontrol-P5.service file to point to /home/{username}/fancontrol-P5.py
-    
-3.  Move "fancontrol-P5.service" to /etc/systemd/system
+2.  Edit "fancontrol-P5.service" line 5 to point to "fancontrol-P5.py"\
+ExecStart=/usr/bin/python3 /home/pi/fancontrol-P5.py    
+4.  Move "fancontrol-P5.service" to /etc/systemd/system
 
-4.  To start boot service: execute in shell
+5.  To start boot service: execute in shell
     
                           sudo systemctl daemon-reload
                           sudo systemctl restart fancontrol-P5.service
