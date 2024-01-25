@@ -13,3 +13,4 @@
 
 
 ![pi-GPIO](https://github.com/carterm2/fancontrol-P5/assets/11826844/726ef399-13b2-41d4-975e-7275f8ee6469)
+![HexCase-FanWiringLow](https://github.com/carterm2/fancontrol-P5/assets/11826844/245cbf54-08c0-4f5f-af06-896680aab7b6)
