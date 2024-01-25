@@ -1,24 +1,20 @@
-Fan Control for the Raspberry Pi 5 HexCase on Printables.com
+# FanControl for HexFanCase P5 on Printables.com
 
-The script starts the fan when CPU temperature hits 55C and ramps to 100% speed at 80C.
+## Fan idle until 50C CPU temperature, ramps to 100% speed at 80C.
 
-1.  Download fancontrol-P5.py and fancontrol-P5.service
+1.  Download fancontrol-P5.py and fancontrol-P5.service (home directory or subfolder)
 
-2.  Put "fancontrol-P5.py" into a folder called "fancontrol" under your user directory ie:          
-        /home/'username'/fancontrol/**fancontrol-P5.py**
-
-3.  Edit fancontrol-P5.service file to point to /home/{username}/fancontrol/fancontrol-P5.py
+2.  Edit fancontrol-P5.service file to point to /home/{username}/fancontrol-P5.py
     
-4.  Move "fancontrol-P5.service" to /etc/systemd/system
+3.  Move "fancontrol-P5.service" to /etc/systemd/system
 
-5.  To start boot service: execute in shell...  
-  sudo systemctl daemon-reload\
-  sudo systemctl restart fancontrol-P5.service
+4.  To start boot service: execute in shell
+    
+                          sudo systemctl daemon-reload
+                          sudo systemctl restart fancontrol-P5.service
 
-  Fan should be good to go, script will start at boot and fan will run when the CPU reaches 55c.
 
-
-#Wiring Fan to Pi5
+### Wiring Fan to Pi5
 
 
 
