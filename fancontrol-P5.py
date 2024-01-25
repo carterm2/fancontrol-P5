@@ -5,7 +5,7 @@ from gpiozero import CPUTemperature, PWMOutputDevice
 FAN_PIN = 18
 
 # Temperature thresholds
-MIN_TEMP = 55.0  # The temperature at which the fan starts spinning (in Celsius)
+MIN_TEMP = 50.0  # The temperature at which the fan starts spinning (in Celsius)
 MAX_TEMP = 80.0  # The temperature at which the fan spins at maximum speed (in Celsius)
 
 # Create a CPU temperature sensor
