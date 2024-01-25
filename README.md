@@ -5,7 +5,7 @@
 3.  To start boot service: execute in shell...  
   sudo systemctl daemon-reload\
   sudo systemctl restart fancontrol-P5.service
-
+4.  Fan should be good to go, script will start at boot and fan will run when the CPU reaches 55c.
 
 
 #Wiring Fan to Pi5
