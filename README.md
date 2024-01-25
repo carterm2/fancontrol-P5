@@ -1,6 +1,6 @@
 
 #Fan Control for the Raspberry Pi 5 HexCase on Printables.com
-1.  Put "fancontrol-P5.py" into a folder called "fancontrol" under your user directory ie: /home/'username'/**fancontrol-Pi5.py**
+1.  Put "fancontrol-P5.py" into a folder called "fancontrol" under your user directory ie: /home/'username'/**fancontrol-P5.py**
 2.  Copy "fancontrol-P5.service" to /etc/systemd/system
 3.  To start boot service: execute in shell...  
   sudo systemctl daemon-reload\
